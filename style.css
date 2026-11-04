@@ -85,3 +85,17 @@
 .licence-origin-section,.travel-landing{background:#f7f3eb;padding:68px 0}.licence-origin-section .section-kicker,.travel-landing .section-kicker{color:#97784b}.license-origin-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:24px 0}.license-origin-card{padding:19px 17px;background:#fff;border:1px solid #e6dbcb;border-radius:11px;box-shadow:0 5px 20px #1e34400c}.license-origin-card h3{font-size:1.05rem;line-height:1.4;color:#1b3645;margin:0 0 10px}.license-origin-card p{font-size:.88rem;line-height:1.75;color:#57666c;margin:0}.trip-hero{background:linear-gradient(130deg,#142c3c,#2c4758);color:#fff;padding:68px 0 60px}.trip-hero h1{font-size:clamp(2.2rem,4.3vw,3.75rem);line-height:1.16;max-width:1000px;margin:16px 0 20px;color:#fff}.trip-hero .trip-lead{font-size:1.08rem;line-height:1.9;max-width:960px;color:#e9e2d6}.trip-hero .section-kicker{color:#e4c38c}.trip-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.trip-actions .btn{display:inline-flex;align-items:center;justify-content:center}.trip-landing-section{padding:55px 0}.trip-landing-section h2,.licence-origin-section h2{color:#203748;font-size:clamp(1.7rem,2.9vw,2.5rem);line-height:1.24;margin:0 0 18px}.trip-check-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.trip-check-grid article,.trip-faq details{background:#fff;border:1px solid #e4dbce;border-radius:12px;padding:20px}.trip-check-grid h3{margin:0 0 8px;color:#213948;font-size:1.02rem}.trip-check-grid p,.trip-landing-section p{line-height:1.82;color:#52616a}.trip-legal{background:#f8f3e9;border-left:4px solid #c9ab72;padding:24px;border-radius:0 12px 12px 0}.trip-faq details{margin-bottom:10px}.trip-faq summary{cursor:pointer;font-weight:700;color:#203748}.trip-faq p{margin-bottom:0}.trip-refs{font-size:.9rem;line-height:2}.trip-refs a{color:#29495a;text-decoration:underline;text-underline-offset:3px}.trip-strip{display:flex;align-items:center;gap:20px;flex-wrap:wrap;background:#fff;border:1px solid #e5d9c6;border-radius:13px;padding:19px 22px;margin:20px 0}.trip-strip strong{color:#1c3748;flex:1;min-width:230px}.trip-strip .btn{white-space:normal}.trip-notice{font-size:.87rem;color:#74695b;line-height:1.8;margin-top:20px}
 @media(max-width:1000px){.license-origin-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:680px){.license-origin-grid{grid-template-columns:1fr}.trip-check-grid{grid-template-columns:1fr}.trip-hero{padding:47px 0}.trip-landing-section,.licence-origin-section{padding:43px 0}.trip-hero h1{font-size:2.08rem}.trip-strip{align-items:stretch}.trip-strip .btn{width:100%}}
+
+/* Accessible footer & privacy pages, November 2026 */
+.footer-identity { font-size: .91rem; margin-top: .5rem; }
+.footer-identity a, .footer-bottom a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.footer-identity a:hover, .footer-bottom a:hover { color: #dfc49e; }
+.footer-bottom { gap: 1rem; flex-wrap: wrap; }
+.privacy-main { background: #f8f6f1; color: #172a3a; padding: 5rem 0 6rem; min-height: 70vh; }
+.privacy-wrap { max-width: 820px; }
+.privacy-main h1 { font-size: clamp(2rem,4vw,3.25rem); margin: 1rem 0 1.5rem; }
+.privacy-intro { font-size: 1.18rem; color: #475967; margin-bottom: 2rem; }
+.privacy-section { padding: 1.25rem 0; border-top: 1px solid #d8dbd7; }
+.privacy-section h2 { font-size: 1.17rem; margin: .2rem 0 .7rem; color: #172a3a; }
+.privacy-section p { font-size: 1rem; line-height: 1.85; color: #394b58; }
+.privacy-updated { font-size: .88rem; color: #697a85; margin-top: 2rem; }

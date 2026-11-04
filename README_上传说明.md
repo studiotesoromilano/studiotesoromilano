@@ -1,27 +1,36 @@
-# Studio TesoroMilano · 海外华人意大利自驾与五类驾照服务升级版
+# Studio TesoroMilano — 首页服务入口与页脚正式化升级（2026-11-05）
 
-本文件包保留现有三语官网、动态意大利取件网络 SVG、LinkedIn、小红书、淘宝/闲鱼 App 提示、Apostille 与企业服务，并新增 3 个独立旅行指南页面。
+本包基于此前完整的“三语自驾旅行 / 五类驾照 / 动态交付网络”版本；包含全部网站页面、`style.css`、`delivery-network.svg`、`robots.txt`、`sitemap.xml`。
 
-## 新增网址
-- `/zh/italy-road-trip/`：中文旅行攻略，面向海外华人与中国、加拿大、美国加州、新加坡、台湾驾照
-- `/en/italy-road-trip/`：英文旅行与驾照文件准备
-- `/it/viaggio-in-auto-italia/`：意大利语旅行与外国驾照翻译
+## 本次改动
 
-已有三语首页及三语驾照服务页均新增指向这些页面的内链；Sitemap 增加这 3 条 URL。保留 `delivery-network.svg` 的动画，未改动未证实城市的服务状态。
+- 意大利语和英语首页顶部的中文服务按钮改为 **“意大利宣誓翻译服务入口”**，并正确链接 `/zh/sworn-translation/`。中文首页保留宣誓翻译综合入口，另将驾照专项按钮改为 **“中国驾照宣誓翻译”**。
+- **所有页面**页脚统一改为简洁的 Studio TesoroMilano 品牌、Milano、邮件、隐私政策与 LinkedIn 入口，不再显示原有测试占位提示。
+- 新增真实可打开的三语隐私说明页：`/it/privacy/`、`/zh/privacy/`、`/en/privacy/`。这些页面描述了当前 mailto 咨询表单、Vercel 托管和 Google Fonts 等情况。它们是待您核对经营及数据处理实际情况的初步文本，不应视为已获得个案法律合规审查。
 
-## GitHub / Vercel 更新方式
-1. 在 GitHub 备份目前 main 分支（或保存旧文件）。
-2. 下载 ZIP 并解压，上传其中**所有内容**到仓库根目录，而不是 ZIP 本身；覆盖同名文件。
-3. 必须保留 `delivery-network.svg`、`style.css`、`index.html` 同级，以及 `zh/`、`en/`、`it/` 目录。
-4. Commit directly to `main`，等待 Vercel Production Deployments 显示 Ready。
-5. 手动打开新增三个旅行页、中文驾照页与动态地图，检查手机端、语言链接及淘宝/闲鱼弹窗。
-6. 在 Google Search Console 提交 `/sitemap.xml`，分别检查和请求抓取新旅行页。索引/排名不会即时或保证。
+## 上线前务必处理的事项（重要）
 
-## 重要法律区分
-意大利道路交通法第135条在特定条件下允许有效非欧盟／欧洲经济区驾照随附 IDP 或意大利语官方翻译；驾驶资格、居留期限和租车公司接受条件须另核实。加拿大政府明确认可官方宣誓翻译替代 IDP 的路径；新加坡意大利使馆对使馆认证翻译有专门说明；台湾与美国加州依文件和实际使用场景逐案确认。请勿将“译文办理”宣传成“保证租车成功”或“全欧洲通用”。
+1. **Partita IVA**：如您以意大利增值税纳税主体经营，适用规定要求在网站首页展示 Partita IVA（DPR 633/1972 第35条第1款）。因为您未提供号码，我没有猜测或虚构，更没有声称已完成此项义务。请在发布前将真实 Partita IVA 添加在三个首页页脚，亦可加到全站页脚。
+2. 核对隐私说明中的经营主体（个人执业/公司）、联系方式、使用的平台、实际数据保留政策；若之后接入 analytics、广告像素或在线收件表单，请重新审查 Cookie/隐私与同意要求。
+3. 原有咨询表单使用 `mailto:` 唤起用户邮箱，不会直接将表单提交到服务器；若改为托管表单要同步更新隐私说明。
 
-## 核心官方参考
-- https://aci.gov.it/codice-della-strada/art-135/
-- https://mit.gov.it/traduzione-ufficiale-della-patente-di-guida
-- https://www.international.gc.ca/country-pays/italy-italie/drivers_licenses-permis_de_conduire.aspx?lang=eng
-- https://ambsingapore.esteri.it/en/servizi-consolari-e-visti/servizi-per-il-cittadino-italiano/autoveicoli-e-patenti-di-guida/
+## GitHub 上传
+
+1. 备份现有仓库，解压本包。
+2. 上传根目录和 `zh/`、`en/`、`it/` 完整文件夹，确保新增 `it/privacy/index.html`、`zh/privacy/index.html`、`en/privacy/index.html` 也存在。
+3. GitHub 提交到 `main`，Vercel Deployments 等待 `Ready`。
+4. 查看 `https://www.studiotesoromilano.com/` 首页按钮与页脚，再查看 `/zh/`、`/en/` 和三个 `/privacy/` 页面。
+5. 本次新建的隐私页标为 `noindex`，无需把它们加入 Sitemap，其他已收录地址不变。
+
+
+## 本版新增：微信公众号
+- 官网顶栏在客服微信后新增 **微信公众号 tesoromilano**，点击复制账号，在微信中搜索关注。
+- **客服微信 studiotesoromilano** 保留且不混淆。
+- 中文／意大利语／英文三个首页的联系区也分别列出公众号账号。
+- 尚未提供经过确认的公众号网页主页地址，故不做虚假的直达链接。
+
+## 本次新增：微信公众号文章直达
+- 公众号搜索号：`tesoromilano`（原有点击复制功能保留）
+- 新增“公众号文章 ↗”链接：https://mp.weixin.qq.com/s/mE45X-Ix-wkWT_wCDHjWgA
+- 注意：这是单篇文章地址，并非公众号主页；网页标题与文章内容尚未独立核验。
+- 链接加入三语首页和所有带官方平台栏的服务页，未修改原有链接结构与 SEO 地址。
