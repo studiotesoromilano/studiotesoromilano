@@ -27,3 +27,10 @@
 
 ## 2026-11-05：Duomo 区域办公室取件用语升级
 中文：米兰市中心 DUOMO 区域办公室｜便捷取件。意大利语：Ufficio in zona Duomo, nel centro di Milano | Comodo ritiro documenti。英语：Office in Milan’s Duomo Area | Convenient Document Pickup。适用于网站中原有的取件展示模块。具体取件地点和时间以订单安排为准。
+
+
+## 2026-11-05：意大利语首页双中文入口优化
+- 左上角品牌标识下方新增中文按钮「意大利宣誓翻译服务入口 ↗」；按钮直接进入 /zh/sworn-translation/。
+- 首页主视觉语言入口区新增金色中文按钮「🇨🇳 意大利宣誓翻译服务入口 ↗」，与原意大利语及英语入口并列。
+- 手机端也可直接看到这两个中文入口，避免华人客户进入意大利语首页后找不到中文服务。
+- 不改动网站路由、其他三语页面、动态地图、SEO 和社交渠道。
