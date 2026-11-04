@@ -1,28 +1,29 @@
-# Studio TesoroMilano｜公众号第135条科普同步官网 · 完整三语上传包
+# Studio TesoroMilano｜国际专业客户 SEO + Duomo 地铁站取件升级版
 
-基于现有 21 页面三语官网，保留：动态交付网络 SVG、微信/公众号、小红书、淘宝/闲鱼 App 提示、LinkedIn、公司设立与 Apostille 服务、隐私页与全部既有 URL。
+## 升级摘要
+- 新增意大利语专业页面：`/it/interpretariato-giuridico-cinese-milano/`、`/it/coordinamento-notarile-societario/`。
+- 新增英语专业页面：`/en/legal-interpreting-milan/`、`/en/cross-border-notarial-coordination/`。
+- 意大利语首页优先面向公证员、律师、会计师；英文首页优先面向国际律所、企业及跨境顾问；中文保留驾照与企业服务入口。
+- 三语首页和三语驾照/宣誓翻译服务页突出了 **Duomo 地铁站出口附近，工作日工作时间可领取已经办理完成的纸质文件**；具体地点和时间以订单确认的信息为准。并非地铁站内设柜台，也不意味着无需提前办理翻译。
+- 保留原网站的动态文件交付网络、微信公众号及文章入口、小红书、微信、淘宝、闲鱼、LinkedIn、中文版中国驾照第135条科普与旅游 SEO。
+- sitemap.xml 根据实际目录重新生成，包含所有 HTML 页的规范 URL 与相互对应的首页、旅行及新专业页面语言标注；robots.txt 引用 sitemap。
 
-## 2026-11-05 本次修改
-- `/zh/driving-licence/`、`/zh/italy-road-trip/` 新增《有中国驾照，到底能不能在意大利合法驾驶？》核心法律说明。
-- 对应的 `/en/driving-licence/`、`/en/italy-road-trip/`，`/it/driving-licence/`、`/it/viaggio-in-auto-italia/` 增加本地化的第135条法律说明。
-- 中文首页新增指向详细自驾科普页的内部链接。
-- `style.css` 增加专业内容卡片式布局。
-- 注明文章来自负责人 Lea (Wenhua) Xu 的专业科普，链接至公众号原文及 ACI/MIT 法规信息。
+## GitHub / Vercel
+1. **先备份**现有 GitHub `main` 分支。
+2. 解压后将包内**内容**上传至仓库根目录（不要连同外层文件夹上传）。
+3. Commit 到部署分支，等待 Vercel Production Ready。
+4. 检查四个新增网址、`/sitemap.xml`、`/robots.txt`。
+5. 在 Google Search Console 使用 URL Inspection 的 Live Test，并检查 Sitemap 能否由 Google 抓取。提交 sitemap 不保证 Google 收录或排名。
 
-## 重要法律说明
-- IDP 或官方意大利语翻译在法定条件下为替代路径，不是都要。
-- **residenza** 不是首次入境时间，也不能简单等同签证或居留卡。
-- 租车公司审核与道路交通合法性是两种不同判断。
-- 原驾照须有效，翻译不替代原件，不保证租车或驾驶资格。
-- 第135条第8款行政罚款的具体金额不写死，须按照当时法规核查。
-- “长期”译文需要根据具体原始文件、适用规范和上下文评估，不应机械套用。
-- 避免声称所有官方翻译都必须由 CTU 完成或所有译文自动被全部机构接受。
+## 法律/业务范围
+- 公证、法律、税务等法定保留业务由相关专业人士承担；工作室承担语言服务、文件准备与跨专业沟通协调。
+- 米兰 Duomo 取件针对 **已完成文件**，并限于工作日工作时间；具体地点和时间须按订单确认。
+- 无法直接从网站 HTML 判定 Search Console 的“无法抓取”根因；如果继续报错，需检查 Vercel 的 HTTP 状态及 Google 抓取详情。
 
-## 上传 GitHub
-1. 备份仓库当前 `main`。
-2. 解压 ZIP，上传解压出的**全部文件与目录内容**到 GitHub 仓库根目录（不是上传 ZIP 文件本身）。
-3. 提交到 `main`，Vercel 自动部署。
-4. 访问中文驾照页 `/zh/driving-licence/`、旅行指南 `/zh/italy-road-trip/`、意大利语和英文对应页面核对排版。
-5. `sitemap.xml` 未改，因为没有增加或移动任何 URL。
 
-网站法律说明系一般信息，不构成针对个案的意见。
+## 本版文字调整
+已将三语网站所有重点取件宣传统一为「米兰 DUOMO 区域取件 / Milan Duomo area collection / ritiro in zona Duomo a Milano」。删除原来“地铁站出口”“出站即取”“地铁站内外柜台”等易误解的表述；具体取件地点及安排以订单确认为准。保留既有三语专业SEO、动态地图及网站结构。
+
+
+## 2026-11-05：Duomo 区域办公室取件用语升级
+中文：米兰市中心 DUOMO 区域办公室｜便捷取件。意大利语：Ufficio in zona Duomo, nel centro di Milano | Comodo ritiro documenti。英语：Office in Milan’s Duomo Area | Convenient Document Pickup。适用于网站中原有的取件展示模块。具体取件地点和时间以订单安排为准。
