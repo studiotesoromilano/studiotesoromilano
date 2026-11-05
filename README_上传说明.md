@@ -1,36 +1,31 @@
-# Studio TesoroMilano｜国际专业客户 SEO + Duomo 地铁站取件升级版
+# Studio TesoroMilano 完整三语官网｜中文服务页优化
 
-## 升级摘要
-- 新增意大利语专业页面：`/it/interpretariato-giuridico-cinese-milano/`、`/it/coordinamento-notarile-societario/`。
-- 新增英语专业页面：`/en/legal-interpreting-milan/`、`/en/cross-border-notarial-coordination/`。
-- 意大利语首页优先面向公证员、律师、会计师；英文首页优先面向国际律所、企业及跨境顾问；中文保留驾照与企业服务入口。
-- 三语首页和三语驾照/宣誓翻译服务页突出了 **Duomo 地铁站出口附近，工作日工作时间可领取已经办理完成的纸质文件**；具体地点和时间以订单确认的信息为准。并非地铁站内设柜台，也不意味着无需提前办理翻译。
-- 保留原网站的动态文件交付网络、微信公众号及文章入口、小红书、微信、淘宝、闲鱼、LinkedIn、中文版中国驾照第135条科普与旅游 SEO。
-- sitemap.xml 根据实际目录重新生成，包含所有 HTML 页的规范 URL 与相互对应的首页、旅行及新专业页面语言标注；robots.txt 引用 sitemap。
+本包以 https://github.com/studiotesoromilano/studiotesoromilano 的 main 分支为基础。
+基准提交：59c5f307adb94888c3a78e69689b8ac640690d19（Update style.css）。
+交付日期：2026-11-05。打包前已再次核对远端 main，未发生更新。
 
-## GitHub / Vercel
-1. **先备份**现有 GitHub `main` 分支。
-2. 解压后将包内**内容**上传至仓库根目录（不要连同外层文件夹上传）。
-3. Commit 到部署分支，等待 Vercel Production Ready。
-4. 检查四个新增网址、`/sitemap.xml`、`/robots.txt`。
-5. 在 Google Search Console 使用 URL Inspection 的 Live Test，并检查 Sitemap 能否由 Google 抓取。提交 sitemap 不保证 Google 收录或排名。
+## 上传方式
+1. 解压 ZIP，将包内全部文件及目录上传至现有仓库根目录，并覆盖同路径文件。不要直接上传 ZIP，也不要多套一层文件夹。
+2. 根目录应直接包含 index.html、style.css、robots.txt、sitemap.xml，以及 zh、it、en 文件夹。
+3. 提交至现有部署分支；如果仓库已连接自动部署，等待部署完成。保留现有域名、DNS 和部署设置。
+4. 上线后检查首页、两个中文服务页、三语切换，以及 /robots.txt 和 /sitemap.xml。
+5. 如使用 Google Search Console，可提交现有域名的 sitemap.xml，并请求检查两个重点中文页面。
 
-## 法律/业务范围
-- 公证、法律、税务等法定保留业务由相关专业人士承担；工作室承担语言服务、文件准备与跨专业沟通协调。
-- 米兰 Duomo 取件针对 **已完成文件**，并限于工作日工作时间；具体地点和时间须按订单确认。
-- 无法直接从网站 HTML 判定 Search Console 的“无法抓取”根因；如果继续报错，需检查 Vercel 的 HTTP 状态及 Google 抓取详情。
+本包为完整静态网站，不需要 npm 安装或构建。使用根域名 https://www.studiotesoromilano.com/ 的现有部署方式；不适用于未经调整的 /仓库名/ 子路径部署。
 
+## 本次更新
+- 宣誓翻译综合页：独立 SEO 标题与描述、文件范围、四步流程、7 项 FAQ、微信及邮件咨询入口。
+- 中国驾照专页：独立 SEO 标题与描述、最快24小时紧急特急出件、工作日与材料/档期条件、落地自驾衔接、机场/火车站合作点及 Duomo 取件、8 项 FAQ。
+- 首页、攻略和两个服务页互相链接，新增 FAQ 结构化数据与可折叠问答内容一致。
+- 中文专业身份使用确认原文：米兰大学法学博士｜意大利司法部注册｜米兰法院 CTU 1354｜司法部官网可查。
+- 明确中文—意大利语、英语—意大利语两组 CTU 语言专业资质。
+- 微信客服：studiotesoromilano；微信公众号：tesoromilano，继续分别展示。
+- 保留原有 25 个页面、意英专业服务页、三语切换、意大利语首页原有两个中文入口、品牌口号、地图、平台入口、咨询表单与交互脚本；主视觉另补驾照入口。
+- 修复意大利语首页原有重复嵌套 header 及重复 top ID。
+- sitemap 覆盖 22 个可索引页面的 canonical 及 hreflang。3 个隐私页保留原有 noindex,follow，仍可通过页脚访问，不再列入 sitemap。
 
-## 本版文字调整
-已将三语网站所有重点取件宣传统一为「米兰 DUOMO 区域取件 / Milan Duomo area collection / ritiro in zona Duomo a Milano」。删除原来“地铁站出口”“出站即取”“地铁站内外柜台”等易误解的表述；具体取件地点及安排以订单确认为准。保留既有三语专业SEO、动态地图及网站结构。
+## 时效及法律表述
+24小时指符合确认条件时的出件时效，不等于24小时送达。具体取件点、柜台时间、交付费用及保管期限按订单确认。
+保留原驾照、residenza 一年规则、驾驶资格与租车公司合同条件的区别，以及 CTU 登记不自动使普通译文成为宣誓翻译件的说明。
 
-
-## 2026-11-05：Duomo 区域办公室取件用语升级
-中文：米兰市中心 DUOMO 区域办公室｜便捷取件。意大利语：Ufficio in zona Duomo, nel centro di Milano | Comodo ritiro documenti。英语：Office in Milan’s Duomo Area | Convenient Document Pickup。适用于网站中原有的取件展示模块。具体取件地点和时间以订单安排为准。
-
-
-## 2026-11-05：意大利语首页双中文入口优化
-- 左上角品牌标识下方新增中文按钮「意大利宣誓翻译服务入口 ↗」；按钮直接进入 /zh/sworn-translation/。
-- 首页主视觉语言入口区新增金色中文按钮「🇨🇳 意大利宣誓翻译服务入口 ↗」，与原意大利语及英语入口并列。
-- 手机端也可直接看到这两个中文入口，避免华人客户进入意大利语首页后找不到中文服务。
-- 不改动网站路由、其他三语页面、动态地图、SEO 和社交渠道。
+没有自动提交 GitHub，也没有更改线上部署。完整检查范围及限制见 CHECKS_2026-11-05.md。

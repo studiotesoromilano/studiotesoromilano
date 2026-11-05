@@ -471,3 +471,24 @@ a[aria-current="page"] {
     font-size: 10px;
   }
 }
+
+/* Chinese service pages: concise service hierarchy and mobile-safe controls. */
+.service-landing{padding-top:clamp(42px,6vw,80px);background:linear-gradient(180deg,#f5f1e9 0,#fff 650px)}
+.service-landing .seo-title{font-size:clamp(2rem,4.2vw,3.5rem);line-height:1.3;max-width:1050px}
+.service-landing .seo-title span{font-size:.75em;color:#6d593d}
+.service-proof{border-left:3px solid #b39a6b;padding:10px 18px;margin:24px 0;color:#263b48;line-height:1.8;max-width:960px}
+.service-proof p{margin:5px 0}.service-proof p+p{font-size:14px;color:#4a5c60}
+.service-urgent{padding:22px 26px;background:#172e3c;color:#fff;border-radius:12px;max-width:920px;margin:24px 0}
+.service-urgent strong{font-size:clamp(1.3rem,3vw,1.8rem);color:#eed4ab}.service-urgent p{margin:10px 0 0;color:#e0e7ea;line-height:1.8}
+.service-steps{padding-left:26px;line-height:1.8}.service-steps li{padding:8px 0 8px 6px}.service-steps p{margin:6px 0}
+.service-related{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}.service-related a{padding:13px 17px;border:1px solid #d9c9ae;background:#fff;border-radius:8px;font-weight:700;line-height:1.6}
+.service-related a:hover{background:#f4eddf}.service-account,.service-note,.service-sources{font-size:14px;line-height:1.8;overflow-wrap:anywhere}
+.service-sources a{text-decoration:underline;text-underline-offset:3px}.service-landing .sworn-cta-row .btn{margin:0;white-space:normal;border-radius:6px;font:inherit;font-weight:700}
+.service-landing .sworn-cta-row .btn-gold{background:#d0b181;color:#172a3a}.service-landing .sworn-cta-row .btn-dark{background:#172a3a;color:#fff}
+.service-landing [id]{scroll-margin-top:100px}.service-landing .sworn-grid a{display:inline-block;margin-top:12px}
+.service-landing summary{min-height:44px}.service-landing button{cursor:pointer}
+:focus-visible{outline:3px solid #a57938;outline-offset:4px}
+@media(max-width:650px){.service-landing{padding-top:38px}.service-landing .seo-panel{padding:22px 18px}.service-landing .sworn-cta-row>*{width:100%;justify-content:center}.service-related{flex-direction:column}.service-related a{width:100%}.service-proof{padding:8px 12px}.service-urgent{padding:20px}.service-landing .editorial-quicklinks{display:grid;grid-template-columns:1fr 1fr}.service-landing .editorial-quicklinks a{padding:12px 9px;text-align:center}.hero-proof{overflow-wrap:anywhere}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+
+.service-landing .sworn-cta-row button.btn{padding:14px 23px;min-height:49px}
