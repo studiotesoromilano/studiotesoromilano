@@ -57,3 +57,8 @@ https://developers.google.com/search/docs/crawling-indexing/special-tags
 https://developers.google.com/search/docs/appearance/title-link
 
 公开检索使用了“traduzione cinese notaio interprete rogito procure”“traduzione documenti societari cinesi commercialista soci cinesi”“traduzioni cinese studi legali atti giudiziari CTU Milano”等组合，仅用于观察市场使用语言，不等于Google意大利地区排名或搜索量测量。未采纳其他服务商的法律承诺。
+
+
+## 个人客户补充｜2026-11-07
+
+首页新增个人文件入口，/it/traduzione-giurata/#privati承接具体需求。新增候选词：traduzioni giurate per privati；traduzione certificato di nascita cinese italiano；traduzione certificato di matrimonio cinese；traduzione diploma cinese italiano；traduzione certificato penale cinese；traduzione documenti italiani per uso in Cina。关键词为需求候选，未核验搜索量。不新建与现有宣誓翻译页重复的页面。
