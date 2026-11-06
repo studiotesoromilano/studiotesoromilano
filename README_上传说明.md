@@ -1,3 +1,13 @@
+# 本版更新：恢复三语邮件咨询
+
+以 GitHub main 最新提交 a7c2370 为基础。解压后将包内全部文件上传至仓库根目录，覆盖同名文件。
+
+中、英、意三语首页恢复邮件咨询：表单打开邮件程序，客户添加附件并确认发送至 studiotesoromilano@gmail.com。网站不自动发送，不再使用第三方表单。WhatsApp 和其他页面保留。若未配置默认邮件程序，可复制页面上显示的邮箱地址到自己的邮箱。
+
+无需激活 Formspree 或 FormSubmit。旧检查记录仅供历史参考，以本说明为准。此 ZIP 尚未替您上线。
+
+---
+
 最新交付：三语在线询价及附件上传。请以TRILINGUAL_UPLOAD_SETUP.md为准，旧检查记录仅对应历史版本。
 
 最新版本：Formspree xoeezjkg。请阅读FORMSPREE_SETUP.md。旧FormSubmit说明已失效；网站直接收件待上线后实际到件验收。
