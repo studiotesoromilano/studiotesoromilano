@@ -1,3 +1,7 @@
+最新交付：三语在线询价及附件上传。请以TRILINGUAL_UPLOAD_SETUP.md为准，旧检查记录仅对应历史版本。
+
+最新版本：Formspree xoeezjkg。请阅读FORMSPREE_SETUP.md。旧FormSubmit说明已失效；网站直接收件待上线后实际到件验收。
+
 # Studio TesoroMilano｜意大利语专业客户版｜2026-11-07
 
 基于 GitHub main 提交 45a9e0491196ccfaa592714259e58f7b707ec04d（Add files via upload）。

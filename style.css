@@ -538,3 +538,5 @@ a[aria-current="page"] {
 @media(max-width:780px){.it-professional .home-focus{padding:25px 0}.it-professional .home-focus h1{font-size:30px;line-height:1.18}.it-professional .home-focus .section-kicker{font-size:12px}.it-professional .home-focus .home-verification{font-size:15px}.it-professional .home-focus .it-lead{font-size:16px}}
 
 .btn-whatsapp{background:#176b46;color:#fff!important;border:1px solid #176b46;text-decoration:none;overflow-wrap:anywhere}.btn-whatsapp:hover{background:#105235}.whatsapp-contact{padding-top:20px;padding-bottom:24px}.online-contact-link{display:flex;gap:12px;flex-wrap:wrap;padding:15px 0}#direct-enquiry-form input[type=file]{width:100%;max-width:100%;padding:12px 0}#direct-enquiry-form .form-hint{overflow-wrap:anywhere}@media(max-width:650px){.whatsapp-contact .btn,.online-contact-link .btn{width:100%;white-space:normal}}
+
+.online-enquiry-entry{padding-top:12px;padding-bottom:24px}.online-enquiry-entry a{text-decoration:underline}#direct-enquiry-form button:disabled{opacity:.65;cursor:wait}#submission-status{line-height:1.65;overflow-wrap:anywhere}#submission-help[hidden]{display:none}
