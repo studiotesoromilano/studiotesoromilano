@@ -492,3 +492,34 @@ a[aria-current="page"] {
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 
 .service-landing .sworn-cta-row button.btn{padding:14px 23px;min-height:49px}
+
+/* Italian professional pages only: editorial hierarchy for legal practices. */
+.it-professional .it-hero{padding:78px 0 64px;background:#142c3a;color:#fff}
+.it-professional .it-hero h1{max-width:1000px;font-size:clamp(34px,4.5vw,62px);line-height:1.16;letter-spacing:-1px;font-weight:600;margin:24px 0}
+.it-professional .it-hero h1 em{font-style:normal;color:#ddc39a}
+.it-professional .it-hero .section-kicker{color:#ddc39a}
+.it-professional .it-lead{max-width:850px;font-size:19px;line-height:1.8;color:#e2e8eb}
+.it-professional .it-actions{display:flex;gap:14px;flex-wrap:wrap;margin:30px 0}
+.it-professional .it-tagline{font-family:Georgia,serif;font-style:italic;color:#d6bd96;font-size:19px;margin:24px 0 0}
+.it-professional .it-block{padding:60px 0;scroll-margin-top:100px}
+.it-professional .it-block:nth-of-type(even){background:#f6f3ed}
+.it-professional .it-block h2{font-size:clamp(26px,3vw,38px);line-height:1.3;max-width:950px;margin:0 0 25px}
+.it-professional .it-block p{line-height:1.85;max-width:940px}
+.it-professional .it-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.it-professional .it-card{padding:28px;background:#fff;border:1px solid #ded7cb;border-top:3px solid #b39768;border-radius:4px}
+.it-professional .it-card h3{font-size:21px;line-height:1.4}.it-professional .it-card p{font-size:15px}
+.it-professional .it-proof{padding:24px;border-left:3px solid #b39768;background:#fff;margin:20px 0;line-height:1.9}
+.it-professional .it-proof strong{font-size:18px}.it-professional .it-proof p{margin:10px 0}
+.it-professional .it-steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;counter-reset:steps}
+.it-professional .it-steps li{padding:22px;border-top:1px solid #bda882}.it-professional .it-steps strong{font-size:19px}
+.it-professional .it-faq{max-width:960px}.it-professional .it-faq details{padding:20px 0;border-bottom:1px solid #ddd6cb}
+.it-professional summary{font-weight:700;cursor:pointer;line-height:1.6;min-height:44px}.it-professional .it-faq p{margin:12px 0 0}
+.it-professional .it-contact{display:grid;grid-template-columns:1.4fr 1fr;gap:35px;align-items:center}
+.it-professional .it-contact a{overflow-wrap:anywhere}.it-professional .it-small{font-size:13px;color:#52626c}
+.it-professional .it-related{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0}.it-professional .it-related a{padding:12px 16px;border:1px solid #d8cebd;border-radius:4px;background:#fff}
+.it-professional .it-secondary{border-top:1px solid #d8cebd;padding:24px 0;margin-top:25px}.it-professional .it-secondary p{font-size:14px}
+.it-professional .it-language-entry{display:flex;gap:22px;flex-wrap:wrap;font-size:13px;padding-top:12px;padding-bottom:12px;background:#fbf8f1}
+.it-professional .it-language-entry a{font-weight:700;color:#765b30}
+.it-professional .social-topbar{margin-top:26px}.it-professional .btn{white-space:normal;text-align:center}
+.it-professional .it-block .text-link{text-decoration:underline;text-underline-offset:4px}
+@media(max-width:780px){.it-professional .it-cards,.it-professional .it-contact{grid-template-columns:1fr}.it-professional .it-hero{padding:45px 0}.it-professional .it-lead{font-size:16px}.it-professional .it-block{padding:40px 0}.it-professional .it-card{padding:22px}.it-professional .it-steps{grid-template-columns:1fr}.it-professional .it-actions .btn{width:100%}.it-professional .it-hero h1{font-size:clamp(32px,8vw,44px);letter-spacing:-.5px}.it-professional .it-language-entry{gap:10px}.it-professional .it-proof{padding:18px}}

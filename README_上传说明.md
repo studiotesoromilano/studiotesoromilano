@@ -1,31 +1,30 @@
-# Studio TesoroMilano 完整三语官网｜中文服务页优化
+# Studio TesoroMilano｜意大利语专业客户版｜2026-11-07
 
-本包以 https://github.com/studiotesoromilano/studiotesoromilano 的 main 分支为基础。
-基准提交：59c5f307adb94888c3a78e69689b8ac640690d19（Update style.css）。
-交付日期：2026-11-05。打包前已再次核对远端 main，未发生更新。
+基于 GitHub main 提交 45a9e0491196ccfaa592714259e58f7b707ec04d（Add files via upload）。
+完整静态网站包，保留全部25个页面。中文和英文目录逐文件与基准比较，字节完全一致。
 
-## 上传方式
-1. 解压 ZIP，将包内全部文件及目录上传至现有仓库根目录，并覆盖同路径文件。不要直接上传 ZIP，也不要多套一层文件夹。
-2. 根目录应直接包含 index.html、style.css、robots.txt、sitemap.xml，以及 zh、it、en 文件夹。
-3. 提交至现有部署分支；如果仓库已连接自动部署，等待部署完成。保留现有域名、DNS 和部署设置。
-4. 上线后检查首页、两个中文服务页、三语切换，以及 /robots.txt 和 /sitemap.xml。
-5. 如使用 Google Search Console，可提交现有域名的 sitemap.xml，并请求检查两个重点中文页面。
+## 上传
+解压后，将包内文件和目录放入原 GitHub 仓库根目录，覆盖同名文件；不要直接上传ZIP，不要多套一层目录。沿用现有根域名和部署配置，无需安装或构建。
+本次没有提交 GitHub 或部署线上站点。
 
-本包为完整静态网站，不需要 npm 安装或构建。使用根域名 https://www.studiotesoromilano.com/ 的现有部署方式；不适用于未经调整的 /仓库名/ 子路径部署。
+## 意大利语重新定位
+对象：意大利公证员、律师、律所及其他专业事务所。
+首页主标题：CTU cinese a Milano. Traduzioni giurate e interpretariato giuridico.
+重点词：CTU cinese Milano、traduzione giurata cinese、traduzione giuridica Cina–Italia、interprete cinese per notai e avvocati、rogiti、procure、atti societari、udienze。
+这些关键词自然放入相应标题、正文和链接，未使用隐藏关键词或保证排名。
 
-## 本次更新
-- 宣誓翻译综合页：独立 SEO 标题与描述、文件范围、四步流程、7 项 FAQ、微信及邮件咨询入口。
-- 中国驾照专页：独立 SEO 标题与描述、最快24小时紧急特急出件、工作日与材料/档期条件、落地自驾衔接、机场/火车站合作点及 Duomo 取件、8 项 FAQ。
-- 首页、攻略和两个服务页互相链接，新增 FAQ 结构化数据与可折叠问答内容一致。
-- 中文专业身份使用确认原文：米兰大学法学博士｜意大利司法部注册｜米兰法院 CTU 1354｜司法部官网可查。
-- 明确中文—意大利语、英语—意大利语两组 CTU 语言专业资质。
-- 微信客服：studiotesoromilano；微信公众号：tesoromilano，继续分别展示。
-- 保留原有 25 个页面、意英专业服务页、三语切换、意大利语首页原有两个中文入口、品牌口号、地图、平台入口、咨询表单与交互脚本；主视觉另补驾照入口。
-- 修复意大利语首页原有重复嵌套 header 及重复 top ID。
-- sitemap 覆盖 22 个可索引页面的 canonical 及 hreflang。3 个隐私页保留原有 noindex,follow，仍可通过页脚访问，不再列入 sitemap。
+改写页面：
+- /：专业身份、三项核心服务、专业客户使用场景、委托流程与咨询表单。
+- /it/traduzione-giurata/：中文合同、法律与司法文件、宣誓程序、询价材料。
+- /it/interpretariato-giuridico-cinese-milano/：公证签署、律师会谈、庭审口译及准备工作。
+- /it/coordinamento-notarile-societario/：中意授权书、企业文件及商事公证语言协调。
+- /it/costituire-societa/：面向处理中国股东事务的公证员、会计师和律师。
+- /it/apostille/：面向事务所的文件用途、认证与翻译流程核对。
 
-## 时效及法律表述
-24小时指符合确认条件时的出件时效，不等于24小时送达。具体取件点、柜台时间、交付费用及保管期限按订单确认。
-保留原驾照、residenza 一年规则、驾驶资格与租车公司合同条件的区别，以及 CTU 登记不自动使普通译文成为宣誓翻译件的说明。
+驾照与旅行专页保持原样，首页改为次要服务链接。意大利语专业页原平台入口移至页脚，复制、平台弹窗及联系功能保留。品牌口号、意大利语首页两个中文综合服务入口及驾照入口、三语切换保留。中文页面全部保持原样。
+新增CSS仅作用于标记为 it-professional 的意大利语页面，不改变中英文页面样式。原有66段交互脚本保持不变。
 
-没有自动提交 GitHub，也没有更改线上部署。完整检查范围及限制见 CHECKS_2026-11-05.md。
+专业身份使用已确认的 PhD、米兰法院 CTU 1354 及司法部名册可查信息，并明确中文–意大利语、英语–意大利语两组语言资质。名册链接为官方公开检索入口，并非已完成针对个人记录的再次核验。
+说明 CTU 登记与个案司法任命、普通法律翻译与正式宣誓的区别，不承诺公证、司法或机构受理结果。
+
+检查记录见 CHECKS_2026-11-07.md。此前2026-11-05检查记录仅对应历史版本。
