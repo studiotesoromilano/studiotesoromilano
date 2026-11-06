@@ -523,3 +523,18 @@ a[aria-current="page"] {
 .it-professional .social-topbar{margin-top:26px}.it-professional .btn{white-space:normal;text-align:center}
 .it-professional .it-block .text-link{text-decoration:underline;text-underline-offset:4px}
 @media(max-width:780px){.it-professional .it-cards,.it-professional .it-contact{grid-template-columns:1fr}.it-professional .it-hero{padding:45px 0}.it-professional .it-lead{font-size:16px}.it-professional .it-block{padding:40px 0}.it-professional .it-card{padding:22px}.it-professional .it-steps{grid-template-columns:1fr}.it-professional .it-actions .btn{width:100%}.it-professional .it-hero h1{font-size:clamp(32px,8vw,44px);letter-spacing:-.5px}.it-professional .it-language-entry{gap:10px}.it-professional .it-proof{padding:18px}}
+
+/* Homepage focus: credentials, professional services and direct enquiry. */
+.it-professional .home-focus{padding:40px 0}
+.it-professional .home-focus h1{font-size:clamp(30px,3.7vw,50px);margin:18px 0;max-width:1080px}
+.it-professional .home-focus .section-kicker{font-size:14px;letter-spacing:1px;line-height:1.6}
+.it-professional .home-focus .home-verification{font-size:17px;line-height:1.65;margin:16px 0}
+.it-professional .home-focus .home-verification a,.it-professional .home-focus .home-email a,.it-professional .home-focus .home-private a{color:#f2dab3;text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+.it-professional .home-focus .it-lead{line-height:1.6;font-size:18px;margin:16px 0}
+.it-professional .home-focus .it-actions{margin:20px 0 12px}
+.it-professional .home-focus .home-email{margin:10px 0;font-size:16px}
+.it-professional .home-focus .home-credentials{font-size:14px;line-height:1.7;color:#e2e8eb;margin:18px 0 10px}
+.it-professional .home-focus .home-private{font-size:14px;margin:10px 0}
+@media(max-width:780px){.it-professional .home-focus{padding:25px 0}.it-professional .home-focus h1{font-size:30px;line-height:1.18}.it-professional .home-focus .section-kicker{font-size:12px}.it-professional .home-focus .home-verification{font-size:15px}.it-professional .home-focus .it-lead{font-size:16px}}
+
+.btn-whatsapp{background:#176b46;color:#fff!important;border:1px solid #176b46;text-decoration:none;overflow-wrap:anywhere}.btn-whatsapp:hover{background:#105235}.whatsapp-contact{padding-top:20px;padding-bottom:24px}.online-contact-link{display:flex;gap:12px;flex-wrap:wrap;padding:15px 0}#direct-enquiry-form input[type=file]{width:100%;max-width:100%;padding:12px 0}#direct-enquiry-form .form-hint{overflow-wrap:anywhere}@media(max-width:650px){.whatsapp-contact .btn,.online-contact-link .btn{width:100%;white-space:normal}}
