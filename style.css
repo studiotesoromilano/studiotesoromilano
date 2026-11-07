@@ -540,3 +540,7 @@ a[aria-current="page"] {
 .btn-whatsapp{background:#176b46;color:#fff!important;border:1px solid #176b46;text-decoration:none;overflow-wrap:anywhere}.btn-whatsapp:hover{background:#105235}.whatsapp-contact{padding-top:20px;padding-bottom:24px}.online-contact-link{display:flex;gap:12px;flex-wrap:wrap;padding:15px 0}#direct-enquiry-form input[type=file]{width:100%;max-width:100%;padding:12px 0}#direct-enquiry-form .form-hint{overflow-wrap:anywhere}@media(max-width:650px){.whatsapp-contact .btn,.online-contact-link .btn{width:100%;white-space:normal}}
 
 .online-enquiry-entry{padding-top:12px;padding-bottom:24px}.online-enquiry-entry a{text-decoration:underline}#direct-enquiry-form button:disabled{opacity:.65;cursor:wait}#submission-status{line-height:1.65;overflow-wrap:anywhere}#submission-help[hidden]{display:none}
+
+/* Italian service page: accessible in-page navigation. */
+.it-professional .it-hero .service-index{display:flex;flex-wrap:wrap;gap:12px 22px;margin-top:26px}.it-professional .it-hero .service-index a,.it-professional .it-hero .home-credentials a{color:#f2dab3;text-decoration:underline;text-underline-offset:4px}.it-professional .it-hero .home-credentials{max-width:900px;line-height:1.7}.it-professional .service-index a:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+.it-professional .it-hero .service-index a{background:transparent;border:1px solid #69808c;border-radius:4px;padding:10px 14px;color:#f2dab3}.it-professional .it-hero .service-index a:hover{background:#243e4d;color:#fff}
